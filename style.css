@@ -1,0 +1,44 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #030303;
+    color: #faf7f7;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #eaff00;
+}
+
+button {
+    background-color: #eaff00;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Margen para que la imagen no pegue al botón */
+.contenedor-imagen {
+    margin-top: 20px;
+}
+
+/* Esta clase oculta cualquier elemento */
+.oculto {
+    display: none;
+}
+
+/* Estilo opcional para que la imagen se vea prolija y con bordes suaves */
+#miImagen {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 100%;
+    height: auto;
+}
